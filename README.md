@@ -1,13 +1,13 @@
 # Airline
 
-Передзапуском нужно:
+Перед запуском нужно:
 
-В файле application.yml поменять переменные для подключения к локальной базе:
+1) В файле application.yml поменять переменные для подключения к локальной базе:
 - spring.datasource.url
 - spring.datasource.user
 - spring.datasource.password
 
-Выполнить create.sql.
+2) Выполнить create.sql.
 
 Существуют две роли: ROLE_USER и ROLE_ADMIN.
 Администратор имеет доступ ко всем рейсам, может загружать новые рейсы из файла в формате файла flights.csv.
